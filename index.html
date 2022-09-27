@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Excel Lassonde</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="./script.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="./logo.png" />
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href="#courses">Courses</a>
+            <a href="#book">Book</a>
+            <a href="#about-us">About</a>
+        </nav>
+        <button
+            onclick="topFunction()"
+            id="scroll-to-top-btn"
+            title="Go To Top"
+        >
+            ↑
+        </button>
+        <div class="App">
+            <div id="home">
+                <header class="App-header full-page">
+                    <img src="./logo.png" class="App-logo" alt="logo" />
+                    <h1 class="headline">Welcome to Excel Lassonde.</h1>
+                    <p class="width-80">
+                        Need tutoring for a course? We are here to help.
+                    </p>
+                    <p class="width-80">
+                        We provide free tutoring sessions, based on your
+                        schedule.
+                    </p>
+                </header>
+            </div>
+            <div class="scroll-container" id="courses">
+                <section class="full-page">
+                    <h2 class="section-headline">Courses</h2>
+                    <div class="tables-container">
+                        <table class="course-table">
+                            <tr class="header-row">
+                                <th>EECS</th>
+                            </tr>
+                            <tr>
+                                <td>EECS1011</td>
+                            </tr>
+                            <tr>
+                                <td>EECS1012</td>
+                            </tr>
+                            <tr>
+                                <td>EECS1015</td>
+                            </tr>
+                            <tr>
+                                <td>EECS1019</td>
+                            </tr>
+                            <tr>
+                                <td>EECS1022</td>
+                            </tr>
+                            <tr>
+                                <td>EECS1028</td>
+                            </tr>
+                            <tr>
+                                <td>EECS1090</td>
+                            </tr>
+                            <tr>
+                                <td>EECS1720</td>
+                            </tr>
+                            <tr>
+                                <td>EECS2001</td>
+                            </tr>
+                            <tr>
+                                <td>EECS2011</td>
+                            </tr>
+                            <tr>
+                                <td>EECS2021</td>
+                            </tr>
+                            <tr>
+                                <td>EECS2030</td>
+                            </tr>
+                            <tr>
+                                <td>EECS2031</td>
+                            </tr>
+                            <tr>
+                                <td>EECS3221</td>
+                            </tr>
+                            <tr>
+                                <td>EECS3311</td>
+                            </tr>
+                            <tr>
+                                <td>EECS3421</td>
+                            </tr>
+                            <tr>
+                                <td>EECS3101</td>
+                            </tr>
+                        </table>
+                        <table class="course-table">
+                            <tr class="header-row">
+                                <th>ENG</th>
+                            </tr>
+                            <tr>
+                                <td>ENG1101</td>
+                            </tr>
+                            <tr>
+                                <td>ENG1102</td>
+                            </tr>
+                        </table>
+                        <table class="course-table">
+                            <tr class="header-row">
+                                <th>MATH</th>
+                            </tr>
+                            <tr>
+                                <td>MATH1013</td>
+                            </tr>
+                            <tr>
+                                <td>MATH1014</td>
+                            </tr>
+                            <tr>
+                                <td>MATH1025</td>
+                            </tr>
+                            <tr>
+                                <td>MATH1090</td>
+                            </tr>
+                            <tr>
+                                <td>MATH1300</td>
+                            </tr>
+                            <tr>
+                                <td>MATH1310</td>
+                            </tr>
+                            <tr>
+                                <td>MATH2930</td>
+                            </tr>
+                            <tr>
+                                <td>MATH2030</td>
+                            </tr>
+                        </table>
+                        <table class="course-table">
+                            <tr class="header-row">
+                                <th>MECH</th>
+                            </tr>
+                            <tr>
+                                <td>MECH2401</td>
+                            </tr>
+                        </table>
+                        <table class="course-table">
+                            <tr class="header-row">
+                                <th>PHYS</th>
+                            </tr>
+                            <tr>
+                                <td>PHYS1801</td>
+                            </tr>
+                            <tr>
+                                <td>PHYS1410</td>
+                            </tr>
+                            <tr>
+                                <td>PHYS1411</td>
+                            </tr>
+                        </table>
+                        <table class="course-table">
+                            <tr class="header-row">
+                                <th>CHEM</th>
+                            </tr>
+                            <tr>
+                                <td>CHEM1000</td>
+                            </tr>
+                            <tr>
+                                <td>CHEM1001</td>
+                            </tr>
+                            <tr>
+                                <td>CHEM1100</td>
+                            </tr>
+                        </table>
+                    </div>
+                </section>
+            </div>
+            <div class="scroll-container" id="book">
+                <section class="full-page flex">
+                    <h2 class="section-headline">Book A Session</h2>
+                    <p class="booking-para">
+                        To book a session, pick any of the course in the list
+                        above and
+                        <a href="mailto:excellassonde@gmail.com">email us</a>
+                        the following form:
+                    </p>
+                    <div class="code-bg">
+                        <code>
+                            Name: <br />
+                            Student Number: <br />
+                            Course: <br />
+                            Topic / Chapter: <br />
+                            Duration: <br />
+                            Availability: <br />
+                            In-person or Zoom Preferred?:
+                        </code>
+                    </div>
+                    <p class="booking-para">
+                        We will be reaching out our tutors to match someone with
+                        your availability and get back to you as soon as
+                        possible.
+                    </p>
+                </section>
+            </div>
+            <div class="scroll-container" id="about-us">
+                <section class="full-page">
+                    <h2 class="section-headline">About Us</h2>
+                    <p class="booking-para">
+                        If you have any questions, feedback and suggestions,
+                        please do not hesitate to reach out to us. We can be
+                        found at
+                        <a href="mailto:excellassonde@gmail.com"
+                            >excellassonde@gmail.com</a
+                        >.
+                    </p>
+                    <p class="booking-para">
+                        We are currently in the process of getting an office
+                        room at the Bergeron Centre of Engineering Excellence.
+                        We will update this page as soon as we get the room
+                        number.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </body>
+</html>
