@@ -207,3 +207,73 @@ p {
         font-size: 3vmin;
     }
 }
+.popup {
+    width: 400px;
+    background:  #282c34;
+    border: medium solid #9b7abe;
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #fff;
+    visibility: hidden;
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #494c54;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Change background on mouse-over */
+.popup button:hover {
+    cursor: pointer;
+    background: #171a1e;
+}
+
+.open-popup{
+    visibility: visible;
+}
+
+.course{
+    background:  #282c34;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 2vmin;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.course:hover{
+    background: #171a1e;
+}
+
+h3 {
+    margin-bottom: -3px;
+}
+
+.availability{
+    margin: 0 auto;
+}
+
+.day{
+    border:1px solid #9b7abe;
+    padding:10px;
+}
+
