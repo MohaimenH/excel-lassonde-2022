@@ -408,42 +408,13 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <button class = "course" onclick='openPopUp("EECS2031")'>EECS2031</button>
-                                    <div class = "popup" id = "popupEECS2031">
-                                        <h2>Ninja's Availability:</h2>
-                                        <table class = "availability">
-                                            <tr>
-                                              <td class = "day">Monday</td>
-                                              <td class = "day">All day</td>
-                                            </tr>
-                                            <tr>
-                                                <td class = "day">Tuesday</td>
-                                                <td class = "day">1:00 PM - 3:30 PM</td>
-                                            </tr>
-                                            <tr>
-                                                <td class = "day">Wednesday</td>
-                                                <td class = "day">9:00am - 5:00pm</td>
-                                            </tr>
-                                            <tr>
-                                                <td class = "day">Thursday</td>
-                                                <td class = "day">"1:30pm - 6:00pm,
-                                                    4:00 PM - 8:00 PM"</td>
-                                            </tr>
-                                            <tr>
-                                                <td class = "day">Friday</td>
-                                                <td class = "day">All day</td>
-                                            </tr>
-                                            <tr>
-                                                <td class = "day">Saturday</td>
-                                                <td class = "day">N/A</td>
-                                            </tr>
-                                            <tr>
-                                                <td class = "day">Sunday</td>
-                                                <td class = "day">N/A</td>
-                                            </tr>
-                                          </table>
-                                        <button type = "button" onclick='closePopUp("EECS2031")'>OK</button>
-                                    </div>
+                                    <!-- Calendly link widget begin -->
+                                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                                    <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tutoringexcellassonde/eecs-2031'}); return false;" class = "course">
+                                        EECS 2031
+                                    </button>
+                                    <!-- Calendly link widget end -->
                                 </td>
                             </tr>
                         </table>
