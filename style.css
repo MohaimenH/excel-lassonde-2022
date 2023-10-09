@@ -346,7 +346,7 @@ h3 {
    }
 
    .event-card:hover .details{
-    margin-top: 75px;
+    padding-top: 75px;
     display: inline;
     position: relative;
    }
