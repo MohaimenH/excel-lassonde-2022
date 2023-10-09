@@ -278,7 +278,7 @@ h3 {
 }
 
 .event-card {
-  width: 400px;
+  width: 410px;
   height: 220px;
   background: #3b3d43;
   position: relative;
@@ -297,6 +297,7 @@ h3 {
 .event-pic {
   max-height: 100px;
   margin: auto;
+  border-radius: 50%;
 }
 
 /*Text*/
@@ -331,6 +332,7 @@ h3 {
 
    .event-card .details{
     display: none;
+    position: relative;
    }
 
    .event-card:hover {
@@ -340,10 +342,13 @@ h3 {
 
    .event-card:hover .info{
     display: none;
+    position: relative;
    }
 
    .event-card:hover .details{
+    margin-top: 75px;
     display: inline;
+    position: relative;
    }
 
     /* old code, pending to delete
